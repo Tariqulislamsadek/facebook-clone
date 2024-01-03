@@ -1,0 +1,77 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:auto;
+    padding: auto;
+}
+.hero-image{
+    background-image: url(/image/heroimage.jpg);
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+.hero-wrapper{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+}
+.hero-wrapper h1{
+    font-size: 50px;
+    text-align: center;
+}
+.hero-wrapper p{
+    font-size: 20px;
+    text-align: justify;
+}
+.from{
+    text-align: center;
+}
+.from .from-code{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 50%;
+    border-radius: 2rem;
+    padding: .6rem;
+    border: none;
+    outline: none;
+}
+      
+  .from button{
+    width: 40%;
+	text-align: center;
+	background-color: #00bab1;
+	color: white;
+	padding: .6rem;
+	margin:1rem auto 0rem;
+	border: none;
+	border-radius: .3rem;
+    
+  }    
+
+/** Food Section **/
+.food-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: hotpink;
+}
+.box{
+    /* border: 2px sloid black; */
+    height: 400px;
+    width: 30%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 10px;
+}
+
+.box-img{
+    height: 320px;
+    background-size: cover;
+    
+}
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
